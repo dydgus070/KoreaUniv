@@ -415,7 +415,7 @@ void main()
     Tree* test=CreateRBT();
        int data;
        FILE *fp=NULL;
-       fopen_s(&fp,"test.txt", "r");
+       fopen_s(&fp,"input.txt", "r");
         fscanf_s(fp, "%d", &data);
        while(data!=0)
       {
